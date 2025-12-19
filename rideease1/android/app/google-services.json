@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "875477389978",
+    "project_id": "final-project-23195",
+    "storage_bucket": "final-project-23195.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875477389978:android:b437959c8ca7def8e00523",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDCk_m-uVMKqoADfWYPHDZQzil-3d6a84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875477389978:android:45c08dbd2722a68fe00523",
+        "android_client_info": {
+          "package_name": "com.example.rideease1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDCk_m-uVMKqoADfWYPHDZQzil-3d6a84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

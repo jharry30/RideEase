@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+    If you are deploying to a custom domain, change this value to your domain.
+    Example: <base href="/my-app/">
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="RideEase - Modern ride-hailing app for the Philippines">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="RideEase">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>RideEase</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- THIS IS THE MOST IMPORTANT LINE FOR GOOGLE SIGN-IN ON WEB -->
+  <meta name="google-signin-client_id"
+    content="875477389978-12lsv08rq5eb24rd1hv4oikbuschefif.apps.googleusercontent.com">
+
+  <!-- Flutter Web Bootstrap -->
+  <script defer src="flutter_bootstrap.js" type="application/javascript"></script>
+</head>
+
+<body>
+  <!-- Flutter loading spinner -->
+  <script>
+    window.addEventListener('load', function (ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
